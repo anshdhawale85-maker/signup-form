@@ -1,0 +1,51 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.formsub{
+  width: 500px;
+  height: 320px;
+  background-color: #ffffff;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 50px;
+  padding: 30px;
+  line-height: 30px;
+}
+
+#emaill{
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 7px;
+    /* margin-top: 10px ; */
+}
+
+#pass{
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 7px;
+    /* margin-top: 5px; */
+}
+
+#emailststus{
+    margin-bottom: -20px;
+}
+
+#passststus{
+    margin-bottom: -20px;
+}
+
+.error{
+    color: red;
+}
+
+.success{
+    color: green;
+}
